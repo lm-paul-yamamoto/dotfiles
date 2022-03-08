@@ -1,4 +1,4 @@
-source "${HOME}/dotfiles/antigen.zsh"
+source "${HOME}/antigen.zsh"
 
 # include .antigenrc
 [[ -f $HOME/.antigenrc ]] && source $HOME/.antigenrc
