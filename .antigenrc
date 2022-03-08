@@ -2,7 +2,7 @@
 antigen use oh-my-zsh
 
 # Load bundles from the default repo (oh-my-zsh)
-antigen bundle apt
+antigen bundle yum
 antigen bundle brew
 antigen bundle bundler
 antigen bundle history
@@ -10,7 +10,6 @@ antigen bundle git-auto-fetch
 antigen bundle git
 antigen bundle gitfast
 antigen bundle github
-antigen bundle git-prompt
 antigen bundle rails
 antigen bundle rake
 antigen bundle ruby
