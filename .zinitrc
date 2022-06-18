@@ -1,0 +1,22 @@
+# Load prezto library
+zinit snippet PZTM::helper  # required for Git module
+zinit snippet PZTM::syntax-highlighting
+zinit snippet PZTM::history-substring-search
+zinit snippet PZTM::autosuggestions
+zinit snippet PZTM::editor
+zinit snippet PZTM::git
+zinit snippet PZTM::rails
+zinit snippet PZTM::ruby
+zinit snippet PZTM::prompt
+
+# Select theme
+zinit ice depth=1
+zinit light romkatv/powerlevel10k
+
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+zinit self-update
